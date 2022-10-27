@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/JavaScript">
+        function validate() {
+        let emailId = document.getElementById("eid").value;
+        let password = document.getElementById("pid").value;
+        if(emailId.length==0){
+            alert("Email Id is required")
+            return false;
+        }else if(password.length==0){
+            alert("Password is required")
+            return false;
+        }else if(emailId=="raj@gmail.com" && password=="123"){
+            alert("successfully login")
+            return true;
+        }else {
+            alert("failure try once again")
+            return false;
+        }
+    }
+    </script>
+</head>
+<body>
+    <h2>Login Page</h2>
+    <form action="welcome.html" onsubmit="return validate()">
+        <label>EmailId</label>
+        <input type="email" name="emailid" id="eid"/><br/>
+        <label>Password</label>
+        <input type="password" name="password" id="pid"/><br/>
+        <input type="submit" value="submit" name="b1"/>
+        <input type="reset" value="reset" name="b2"/>
+    </form>
+</body>
+</html>

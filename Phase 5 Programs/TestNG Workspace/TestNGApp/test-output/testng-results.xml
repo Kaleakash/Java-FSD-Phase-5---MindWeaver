@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="16" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-26T18:53:18 IST" name="Suite" finished-at="2022-10-26T18:53:18 IST" duration-ms="123">
+    <groups>
+    </groups>
+    <test started-at="2022-10-26T18:53:18 IST" name="Test" finished-at="2022-10-26T18:53:18 IST" duration-ms="67">
+      <class name="com.service.EmployeeServiceTest">
+        <test-method signature="listOfEmployeeTest()[pri:0, instance:com.service.EmployeeServiceTest@69997e9d]" started-at="2022-10-26T18:53:18 IST" name="listOfEmployeeTest" finished-at="2022-10-26T18:53:18 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listOfEmployeeTest -->
+        <test-method signature="updateSalaryTest()[pri:0, instance:com.service.EmployeeServiceTest@69997e9d]" started-at="2022-10-26T18:53:18 IST" name="updateSalaryTest" finished-at="2022-10-26T18:53:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateSalaryTest -->
+      </class> <!-- com.service.EmployeeServiceTest -->
+      <class name="com.service.TestingHookMethods">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.service.TestingHookMethods@20f5239f]" started-at="2022-10-26T18:53:18 IST" name="beforeTest" finished-at="2022-10-26T18:53:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.service.TestingHookMethods@20f5239f]" started-at="2022-10-26T18:53:18 IST" name="beforeClass" finished-at="2022-10-26T18:53:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.service.TestingHookMethods@20f5239f]" started-at="2022-10-26T18:53:18 IST" name="beforeMethod" finished-at="2022-10-26T18:53:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:0, instance:com.service.TestingHookMethods@20f5239f]" started-at="2022-10-26T18:53:18 IST" name="test1" finished-at="2022-10-26T18:53:18 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.service.TestingHookMethods@20f5239f]" started-at="2022-10-26T18:53:18 IST" name="afterMethod" finished-at="2022-10-26T18:53:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.service.TestingHookMethods@20f5239f]" started-at="2022-10-26T18:53:18 IST" name="beforeMethod" finished-at="2022-10-26T18:53:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2()[pri:0, instance:com.service.TestingHookMethods@20f5239f]" started-at="2022-10-26T18:53:18 IST" name="test2" finished-at="2022-10-26T18:53:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.service.TestingHookMethods@20f5239f]" started-at="2022-10-26T18:53:18 IST" name="afterMethod" finished-at="2022-10-26T18:53:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.service.TestingHookMethods@20f5239f]" started-at="2022-10-26T18:53:18 IST" name="afterClass" finished-at="2022-10-26T18:53:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.service.TestingHookMethods@20f5239f]" started-at="2022-10-26T18:53:18 IST" name="afterTest" finished-at="2022-10-26T18:53:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.service.TestingHookMethods -->
+      <class name="com.service.OperationTest">
+        <test-method signature="addTest()[pri:0, instance:com.service.OperationTest@446293d]" started-at="2022-10-26T18:53:18 IST" name="addTest" finished-at="2022-10-26T18:53:18 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method signature="divTest()[pri:0, instance:com.service.OperationTest@446293d]" started-at="2022-10-26T18:53:18 IST" name="divTest" finished-at="2022-10-26T18:53:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divTest -->
+        <test-method signature="mulTest()[pri:0, instance:com.service.OperationTest@446293d]" started-at="2022-10-26T18:53:18 IST" name="mulTest" finished-at="2022-10-26T18:53:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mulTest -->
+        <test-method signature="subTest()[pri:0, instance:com.service.OperationTest@446293d]" started-at="2022-10-26T18:53:18 IST" name="subTest" finished-at="2022-10-26T18:53:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subTest -->
+      </class> <!-- com.service.OperationTest -->
+    </test> <!-- Test -->
+    <test started-at="2022-10-26T18:53:18 IST" name="VTest" finished-at="2022-10-26T18:53:18 IST" duration-ms="9">
+      <class name="com.service.CarTesting">
+        <test-method signature="color()[pri:0, instance:com.service.CarTesting@7fee8714]" started-at="2022-10-26T18:53:18 IST" name="color" finished-at="2022-10-26T18:53:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- color -->
+        <test-method signature="mailage()[pri:0, instance:com.service.CarTesting@7fee8714]" started-at="2022-10-26T18:53:18 IST" name="mailage" finished-at="2022-10-26T18:53:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mailage -->
+        <test-method signature="speed()[pri:0, instance:com.service.CarTesting@7fee8714]" started-at="2022-10-26T18:53:18 IST" name="speed" finished-at="2022-10-26T18:53:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- speed -->
+      </class> <!-- com.service.CarTesting -->
+      <class name="com.service.TestingHookMethods">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.service.TestingHookMethods@20f5239f]" started-at="2022-10-26T18:53:18 IST" name="beforeSuite" finished-at="2022-10-26T18:53:18 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.service.TestingHookMethods@20f5239f]" started-at="2022-10-26T18:53:18 IST" name="afterSuite" finished-at="2022-10-26T18:53:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.service.TestingHookMethods -->
+      <class name="com.service.BikeTesting">
+        <test-method signature="color()[pri:0, instance:com.service.BikeTesting@6da21078]" started-at="2022-10-26T18:53:18 IST" name="color" finished-at="2022-10-26T18:53:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- color -->
+        <test-method signature="mailage()[pri:0, instance:com.service.BikeTesting@6da21078]" started-at="2022-10-26T18:53:18 IST" name="mailage" finished-at="2022-10-26T18:53:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mailage -->
+        <test-method signature="speed()[pri:0, instance:com.service.BikeTesting@6da21078]" started-at="2022-10-26T18:53:18 IST" name="speed" finished-at="2022-10-26T18:53:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- speed -->
+      </class> <!-- com.service.BikeTesting -->
+    </test> <!-- VTest -->
+  </suite> <!-- Suite -->
+</testng-results>

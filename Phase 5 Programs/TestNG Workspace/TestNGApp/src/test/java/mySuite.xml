@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  
+  <test name="Test">
+    <classes>
+      <class name="com.service.TestingHookMethods"/>
+      <class name="com.service.OperationTest"></class>
+      <class name="com.service.EmployeeServiceTest"></class>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="VTest">
+  	<classes>
+  		<class name="com.service.BikeTesting"></class>
+  		<class name="com.service.CarTesting"></class>
+  	</classes>
+  </test>
+  
+</suite> <!-- Suite -->
